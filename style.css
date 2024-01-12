@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 2%;
+    height: 100%;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    
+    height: auto;
+   
+}
+
+video {
+    width: 70vw; /* Ширина видео 25% ширины экрана */
+    /* max-width: 100%; Но не более 100% ширины экрана */
+    height: auto; /* Автоматическая высота */
+}
+.refs{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+   padding: 0 30px;
+
+}
+.refs img{
+    margin: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 10vw;
+    height: auto;
+}
+.refs div{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(240, 248, 255, 0.296);
+    border-radius: 15px;
+    margin-top: 5px;
+    align-items: center;
+}
+.refs p{
+    padding-left: 20px;
+}
+.desc{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+   
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon img, .icon p{
+    margin-right: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    /* height: 15px; */
+}
+.ring button, .icon button{
+height: 30px;
+}
+
